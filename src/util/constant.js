@@ -28,57 +28,100 @@ import energy from "../assets/images/industries/energy.jpg";
 import edtech from "../assets/images/industries/edtech.jpg";
 import space from "../assets/images/industries/space.jpg";
 import security from "../assets/images/industries/security.jpg";
-// porfolio image
-// Import all images at the top (Web Development)
-import FiveGHomesImg from "../assets/web-development-portfolio/5ghomes.png";
-import ColdCreekcapImg from "../assets/web-development-portfolio/cold-creekcap.png";
-import ThinkRealityImg from "../assets/web-development-portfolio/think-reality.png";
-import AkashMegaMart from "../assets/web-development-portfolio/Akash-Mega-Mart.png";
-import MidwamImmersive from "../assets/web-development-portfolio/Midwam–Immersive-Experience-Design-Company.png";
-import Autopilot from "../assets/web-development-portfolio/Autopilot.png";
-import FEGroup from "../assets/web-development-portfolio/fegroup.png";
-import HugeInc from "../assets/web-development-portfolio/HugeInc.png";
-import CodeHelp from "../assets/web-development-portfolio/CodeHelp.png";
-import Spray from "../assets/web-development-portfolio/Spray.png";
-import ArcaneMirage from "../assets/web-development-portfolio/ArcaneMirage.png";
-import MessinaCatering from "../assets/web-development-portfolio/MessinaCatering.png";
-import MasterShala from "../assets/web-development-portfolio/MasterShala.png";
-import MantraDhwani from "../assets/web-development-portfolio/MantraDhwani.png";
+// Portfolio images
+// Web Development Portfolio
+import ColdCreekcapImg from "../assets/portfolio/web-development/cold-creekcap.webp";
+import ThinkRealityImg from "../assets/portfolio/web-development/think-reality.webp";
+import AkashMegaMartWeb from "../assets/portfolio/web-development/akash-mega-mart.webp";
+import MidwamImg from "../assets/portfolio/web-development/midwam.webp";
+import FiveGHomesImg from "../assets/portfolio/web-development/5ghomes.webp";
+import AutopilotImg from "../assets/portfolio/web-development/Autopilot.png";
+import GigzioImg from "../assets/portfolio/web-development/Gigzio.png";
+import FEGroupImg from "../assets/portfolio/web-development/FE Group.png";
+import TheLaddersImg from "../assets/portfolio/web-development/The Ladders.png";
+import HugeIncImg from "../assets/portfolio/web-development/Huge Inc.png";
+import CodeHelpImg from "../assets/portfolio/web-development/CodeHelp.png";
+import SprayImg from "../assets/portfolio/web-development/Spray (Bluestar).png";
+import ArcaneMirageImg from "../assets/portfolio/web-development/Arcane Mirage.png";
+import MasterShalaImg from "../assets/portfolio/web-development/MasterShala.png";
+import MantraDhwaniImg from "../assets/portfolio/web-development/Mantra Dhwani.png";
+import EducateastImg from "../assets/portfolio/web-development/Educateast.png";
+import GuyarivImg from "../assets/portfolio/web-development/Guyariv.png";
+import BackstageEnglishImg from "../assets/portfolio/web-development/Backstage English RC.png";
+import OfCourseTNImg from "../assets/portfolio/web-development/Of Course TN.png";
+import MessinaCateringImg from "../assets/portfolio/web-development/Messina\u2019s Catering.png";
+import CoffeeLavkaImg from "../assets/portfolio/web-development/CoffeeLavka Express Track – Real-Time Coffee Order Tracking Platform.jpg";
+import CraveKitchenImg from "../assets/portfolio/web-development/Crave Kitchen – Digital Food Hall Platform.png";
+import FashionJourneyImg from "../assets/portfolio/web-development/Fashion Journey Navigator – Personalized Style Discovery Platform.jpg";
+import InterviewProImg from "../assets/portfolio/web-development/Interview Pro – Professional Interview Scheduling & Management Platform.jpg";
+import MediverseConnectImg from "../assets/portfolio/web-development/Mediverse Connect AI – AI-Powered Healthcare Networking Platform.jpg";
+import StreamVerseImg from "../assets/portfolio/web-development/StreamVerse – Smart Rental Management Platform.jpg";
+import UPSCAidsImg from "../assets/portfolio/web-development/UPSC Aids – Personalized Mentorship & UPSC Preparation Dashboard.jpg";
 
-// Import all images at the top (App Development)
-import RentopBikeAndCarImgapp from "../assets/app-development-portfolio/Rentop–Bike-&-Car-Rentals.png";
-import AkashMegaMartApp from "../assets/app-development-portfolio/Akash-Mega-Mart-Mobile-App.png";
-import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt-Mobile-App.png";
-import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics-Mobile-App.png";
-import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap-Mobile-App.png";
-import vetlab from "../assets/app-development-portfolio/vetlab.png";
-import eva from "../assets/app-development-portfolio/eva.png";
-import evansfrancis from "../assets/app-development-portfolio/evansfrancis.png";
-import planta from "../assets/app-development-portfolio/planta.png";
-import Serviz from "../assets/app-development-portfolio/serviz.png";
-import freshandfresh from "../assets/app-development-portfolio/freshandfresh.png";
+// E-commerce Websites Portfolio
+import AlfaChinaImg from "../assets/portfolio/ecommerce-websites/Alfa China.png";
+import BholaFactoryImg from "../assets/portfolio/ecommerce-websites/Bhola Factory.png";
+import DavisGrillImg from "../assets/portfolio/ecommerce-websites/Davis Grill.png";
+import MuconFactoryImg from "../assets/portfolio/ecommerce-websites/Mucon Factory.png";
+import MyTeFashionImg from "../assets/portfolio/ecommerce-websites/MyTe Fashion.png";
+import BanjaaranImg from "../assets/portfolio/ecommerce-websites/Banjaaran.png";
+import GullyLabsImg from "../assets/portfolio/ecommerce-websites/GullyLabs.png";
+import NickronIndiaImg from "../assets/portfolio/ecommerce-websites/Nickron India.png";
+import OfficialDAPPImg from "../assets/portfolio/ecommerce-websites/Official DAPP.png";
 
-//portfolio block chain
-import nanoflow from "../assets/portfolio/nanoflow.png";
-import padipal from "../assets/portfolio/padipal.png";
-import cryptopadie from "../assets/portfolio/cryptopadie.png";
-import ProjectButterfly from "../assets/portfolio/ProjectButterfly.png";
-import Solalgo from "../assets/portfolio/Solalgo.png";
-import Taikonz from "../assets/portfolio/Taikonz.png";
+// App Development Portfolio
+import AkashMegaMartApp from "../assets/portfolio/app-development/akash_mega_mart-app.webp";
+import VetlabImg from "../assets/portfolio/app-development/Vetlab.png";
+import VetOnlineImg from "../assets/portfolio/app-development/VetOnline.png";
+import SampleCollectorImg from "../assets/portfolio/app-development/Sample Collector.png";
+import FeelItImg from "../assets/portfolio/app-development/feelit_app.webp";
+import EvaPeopleImg from "../assets/portfolio/app-development/Eva People App.webp";
+import EvaInternshipsImg from "../assets/portfolio/app-development/Eva Internships.webp";
+import EvaTrainingImg from "../assets/portfolio/app-development/Eva Training Certificates.webp";
+import HayatyImg from "../assets/portfolio/app-development/Hayaty.webp";
+import NasehImg from "../assets/portfolio/app-development/Naseh (iOS - ناصح).webp";
+import LafiImg from "../assets/portfolio/app-development/Lafi.webp";
+import RentopImg from "../assets/portfolio/app-development/rentop.webp";
+import ICCBrossardImg from "../assets/portfolio/app-development/ICCBrossard.webp";
+import EvansFrancisImg from "../assets/portfolio/app-development/Evans Francis Christian App.webp";
+import ZignaAutoSnapImg from "../assets/portfolio/app-development/Zigna AutoSnap.webp";
+import KlikomicsImg from "../assets/portfolio/app-development/klikomics.webp";
+import DubaiTravelImg from "../assets/portfolio/app-development/Dubai Travel Guide by eTips.webp";
+import PlantaImg from "../assets/portfolio/app-development/Planta - Plant & Garden Care.webp";
+import ServizImg from "../assets/portfolio/app-development/Serviz.webp";
+import KaamwaliBaisImg from "../assets/portfolio/app-development/Kaamwali Bais.webp";
+import SatisfactionFarmImg from "../assets/portfolio/app-development/Satisfaction Farm - Psychotech.webp";
+import FreshAndFreshImg from "../assets/portfolio/app-development/Fresh and Fresh.webp";
+import BharatMedsImg from "../assets/portfolio/app-development/Bharat Meds – TrackNow Medicine Delivery & Tracking App.jpg";
+import CrimsonClassifiedImg from "../assets/portfolio/app-development/Crimson Classified Hub – Community-Driven Classifieds Platform.jpg";
+import DubaiClassifiedsImg from "../assets/portfolio/app-development/Dubai Classifieds Pulse – Hyperlocal Classified Listings Platform.jpg";
+import EmberImg from "../assets/portfolio/app-development/Ember – AI-Powered Soulmate Matching & Conversation Platform.jpg";
+import UrjaOneImg from "../assets/portfolio/app-development/UrjaOne Nexus – Mobile Energy Services Marketplace.jpg";
 
-//ecommerce portfolio
-import Banjaaran from "../assets/ecommerce-portfolio/Banjaaran.png";
-import GullyLabs from "../assets/ecommerce-portfolio/GullyLabs.png";
-import NickronIndia from "../assets/ecommerce-portfolio/NickronIndia.png";
-import OfficialDAPP from "../assets/ecommerce-portfolio/OfficialDAPP.png";
+// AI Projects Portfolio
+import FindMyAIToolImg from "../assets/portfolio/ai/Find My AI Tool.png";
+import VyroAIImg from "../assets/portfolio/ai/AI Art Generator – Vyro AI.webp";
+import MusiclyImg from "../assets/portfolio/ai/Musicly – AI Music Generator.webp";
 
-//ai Project
-import FindMyAITool from "../assets/aiportfolio/FindMyAITool.png";
+// Blockchain Projects Portfolio
+import ProjectButterflyImg from "../assets/portfolio/blockchain/Project Butterfly.png";
+import EarlynctrImg from "../assets/portfolio/blockchain/Earlynctr.png";
+import SolalgoImg from "../assets/portfolio/blockchain/Solalgo.png";
 
-//shopify portfolio
-import BBBShop from "../assets/shopifyportfolio/BBBShop.png";
-import NaseemPerfume from "../assets/shopifyportfolio/NaseemPerfume.png";
-import TheEthnicCloset from "../assets/shopifyportfolio/TheEthnicCloset.png";
+// Chatbot Projects Portfolio
+import ChatlyImg from "../assets/portfolio/chatbot/Chatly.webp";
+import DawnAIImg from "../assets/portfolio/chatbot/Dawn AI.webp";
+import GENZArtImg from "../assets/portfolio/chatbot/GENZ Art.webp";
+
+// Game Development Portfolio
+import ActionPlayerGamesImg from "../assets/portfolio/games/2 3 4 Player Mini Games.webp";
+import WormsZoneImg from "../assets/portfolio/games/Worms Zone .io - Hungry Snake.webp";
+import SahiImg from "../assets/portfolio/games/Sahi - Group Voice Room.webp";
+
+// Recent Projects Portfolio
+import ProjectsyImg from "../assets/portfolio/recent/Projectsy.ai – AI-Powered Project & Task Management Platform.jpg";
+import SpeaksifyImg from "../assets/portfolio/recent/Speaksify – AI-Powered Public Speaking Coach.jpg";
+import VirtuTeamsImg from "../assets/portfolio/recent/VirtuTeams – Team Management & Remote Operations Platform.jpg";
 
 import { CgWebsite } from "react-icons/cg";
 import { GoFileMedia } from "react-icons/go";
@@ -94,7 +137,6 @@ import { IoLogoAndroid } from "react-icons/io";
 import { SiFlutter } from "react-icons/si";
 import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
-import { title } from "framer-motion/client";
 
 export const companyDetails = {
   name: "GodversAi",
@@ -554,243 +596,712 @@ export const futureTechSectors = [
   },
 ];
 
-export const webPortfolio = [
+// Web Development Portfolio
+export const webDevelopmentPortfolio = [
   {
     id: 1,
-    img: FiveGHomesImg,
-    title: "5g Homes",
-    link: "https://5ghighspeedinternet.co",
-  },
-  {
-    id: 3,
-    img: ColdCreekcapImg,
-    title: "Cold Creekcap",
+    image: ColdCreekcapImg,
+    title: "Cold Creek Capital",
+    description:
+      "Financial services and investment platform with a minimalist design, sharp typography, and detailed service breakdowns",
     link: "https://www.coldcreekcap.com",
   },
   {
-    id: 9,
-    img: ThinkRealityImg,
-    title: "Think Reality",
+    id: 2,
+    image: ThinkRealityImg,
+    title: "ThinkRealty",
+    description:
+      "Premium property portal for the UAE market with advanced property filtering, project highlights, and multilingual support",
     link: "https://thinkrealty.ae",
   },
   {
-    id: 90,
-    img: AkashMegaMart,
+    id: 3,
+    image: AkashMegaMartWeb,
     title: "Akash Mega Mart",
+    description:
+      "E-commerce platform for retail products with seamless checkout and product filtering",
     link: "https://akashmegamart.com/",
   },
   {
-    id: 91,
-    img: MidwamImmersive,
-    title: "Midwam ",
+    id: 4,
+    image: MidwamImg,
+    title: "Midwam",
+    description:
+      "Creative technology and innovation company combining immersive visuals with clean interface for exhibitions, VR, AR, and live experiences",
     link: "https://www.midwam.com/en/about",
   },
   {
-    id: 92,
-    img: Autopilot,
+    id: 5,
+    image: FiveGHomesImg,
+    title: "5G High Speed Internet",
+    description:
+      "Promotional website for broadband service provider with plan comparisons, service availability checkers, and inquiry forms",
+    link: "https://5ghomes.com",
+  },
+  {
+    id: 6,
+    image: AutopilotImg,
     title: "Autopilot",
-    link: "https://autopilot.io/",
+    description:
+      "Marketing automation platform allowing businesses to automate customer journeys using visual flowcharts with modern animations",
+    link: "https://autopilot.com",
   },
   {
-    id: 93,
-    img: FEGroup,
-    title: "FEGroup",
-    link: "https://fe.group/",
-  },
-  {
-    id: 94,
-    img: HugeInc,
-    title: "HugeInc",
-    link: "https://www.hugeinc.com/",
-  },
-  {
-    id: 95,
-    img: CodeHelp,
-    title: "CodeHelp",
-    link: "https://www.codehelp.in/",
-  },
-  {
-    id: 96,
-    img: Spray,
-    title: "Spray(Bluestar)",
-    link: "https://spray-bluestar.vercel.app/",
-  },
-  {
-    id: 97,
-    img: ArcaneMirage,
-    title: "ArcaneMirage",
-    link: "https://www.arcanemirage.com/",
-  },
-  {
-    id: 98,
-    img: MessinaCatering,
-    title: "Messina’sCatering",
-    link: "https://messinascatering.com/",
-  },
-  {
-    id: 98,
-    img: MasterShala,
-    title: "MasterShala",
-    link: "https://mastershala.com/",
-  },
-  {
-    id: 99,
-    img: MantraDhwani,
-    title: "MantraDhwani",
-    link: "https://mantradhwani.com/",
-  },
-];
-
-export const appPortfolio = [
-  {
-    id: 1,
-    img: AkashMegaMartApp,
-    title: "Akash Mega Mart Mobile App",
-    link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
-  },
-  {
-    id: 2,
-    img: FeelItMobileApp,
-    title: "FeelIt Mobile App",
-    link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
-  },
-  {
-    id: 3,
-    img: KlikomicsMobileApp,
-    title: "Klikomics Mobile App",
-    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
-  },
-  {
-    id: 4,
-    img: AutoSnapMobileApp,
-    title: "AutoSnap Mobile App",
-    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
+    id: 7,
+    image: GigzioImg,
+    title: "Gigzio",
+    description:
+      "Powerful job search engine for blue-collar and gig workers with location-based job discovery and mobile-optimized layout",
+    link: "https://gigzio.com",
   },
   {
     id: 8,
-    img: RentopBikeAndCarImgapp,
-    title: "Rentop Bike and Car",
-    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
+    image: FEGroupImg,
+    title: "FE Group",
+    description:
+      "Global industrial solutions provider with multilingual support, animation-driven UI, and structured service flows",
+    link: "https://fegroup.com",
   },
   {
     id: 9,
-    img: vetlab,
-    title: "Vetlab",
-    link: "https://play.google.com/store/apps/details?id=com.app.vetlab",
+    image: TheLaddersImg,
+    title: "The Ladders",
+    description:
+      "Executive-level job opportunities platform balancing editorial content, career advice, and job listings",
+    link: "https://theladders.com",
   },
   {
     id: 10,
-    img: eva,
-    title: "EvaPeopleApp",
-    link: "https://apps.apple.com/eg/app/eva-people-app/id1551622445",
+    image: HugeIncImg,
+    title: "Huge Inc",
+    description:
+      "Creative agency portfolio showcasing digital experiences with storytelling, micro-interactions, and parallax visuals",
+    link: "https://hugeinc.com",
   },
   {
     id: 11,
-    img: evansfrancis,
-    title: "EvansFrancisChristian App",
-    link: "https://play.google.com/store/apps/details?id=com.christianappdevelopers.evansfrancis&pcampaignid=web_share",
+    image: CodeHelpImg,
+    title: "CodeHelp",
+    description:
+      "Learning platform offering coding tutorials, mentorship, and job prep with community focus and structured courses",
+    link: "https://codehelp.in",
   },
   {
     id: 12,
-    img: planta,
-    title: "Planta",
-    link: "https://play.google.com/store/apps/details?id=com.stromming.planta&pcampaignid=web_share",
+    image: SprayImg,
+    title: "Spray (Bluestar)",
+    description:
+      "AI-powered spray product showcase with slick transitions, 3D mockups, and dark theme for maximum visual impact",
+    link: "https://spray.com",
   },
   {
     id: 13,
-    img: Serviz,
-    title: "Serviz",
-    link: "",
+    image: ArcaneMirageImg,
+    title: "Arcane Mirage",
+    description:
+      "Game studio and creative agency with atmospheric design elements, immersive animations, and character visuals",
+    link: "https://arcanemirage.com",
   },
   {
     id: 14,
-    img: freshandfresh,
-    title: "FreshandFresh",
-    link: "https://play.google.com/store/apps/details?id=com.freshandfresh&hl=en_IN",
+    image: MasterShalaImg,
+    title: "MasterShala",
+    description:
+      "WordPress-based EdTech platform offering online courses, video lectures, and certification programs",
+    link: "https://mastershala.com",
+  },
+  {
+    id: 15,
+    image: MantraDhwaniImg,
+    title: "Mantra Dhwani",
+    description:
+      "Cultural learning platform promoting Indian Vedic chants and spiritual mantras with guided audio and video content",
+    link: "https://mantradhwani.com",
+  },
+  {
+    id: 16,
+    image: EducateastImg,
+    title: "Educateast",
+    description:
+      "Educational services platform providing structured programs and resources for regional educational development",
+    link: "https://educateast.com",
+  },
+  {
+    id: 17,
+    image: GuyarivImg,
+    title: "Guyariv",
+    description:
+      "EdTech platform focused on self-improvement and career-building courses with interactive modules and clean UI",
+    link: "https://guyariv.com",
+  },
+  {
+    id: 18,
+    image: BackstageEnglishImg,
+    title: "Backstage English RC",
+    description:
+      "English language training platform for IELTS, TOEFL, and spoken English courses with mobile-optimized learning",
+    link: "https://backstageenglish.com",
+  },
+  {
+    id: 19,
+    image: OfCourseTNImg,
+    title: "Of Course TN",
+    description:
+      "Tamil Nadu-based online education platform for government schemes, competitive exams, and digital skilling",
+    link: "https://ofcoursetn.com",
+  },
+  {
+    id: 20,
+    image: MessinaCateringImg,
+    title: "Messina's Catering",
+    description:
+      "New Orleans-based catering company website with online event booking, gallery sliders, and elegant menu sections",
+    link: "https://messinascatering.com",
+  },
+  {
+    id: 21,
+    image: CoffeeLavkaImg,
+    title: "CoffeeLavka Express Track",
+    description:
+      "Real-Time Coffee Order Tracking Platform with location-based services and mobile-first layout",
+    link: "https://coffeelavka.com",
+  },
+  {
+    id: 22,
+    image: CraveKitchenImg,
+    title: "Crave Kitchen",
+    description:
+      "Digital Food Hall Platform with online food ordering, menu exploration, and delivery integration",
+    link: "https://cravekitchen.com",
+  },
+  {
+    id: 23,
+    image: FashionJourneyImg,
+    title: "Fashion Journey Navigator",
+    description:
+      "Personalized Style Discovery Platform with product galleries and lookbook-style pages",
+    link: "https://fashionjourney.com",
+  },
+  {
+    id: 24,
+    image: InterviewProImg,
+    title: "Interview Pro",
+    description:
+      "Professional Interview Scheduling & Management Platform with structured service flows",
+    link: "https://interviewpro.ai",
+  },
+  {
+    id: 25,
+    image: MediverseConnectImg,
+    title: "Mediverse Connect AI",
+    description:
+      "AI-Powered Healthcare Networking Platform with telemedicine and digital health solutions",
+    link: "https://mediverseconnect.ai",
+  },
+  {
+    id: 26,
+    image: StreamVerseImg,
+    title: "StreamVerse",
+    description:
+      "Smart Rental Management Platform with virtual tours, smart contracts, and predictive analytics",
+    link: "https://streamverse.io",
+  },
+  {
+    id: 27,
+    image: UPSCAidsImg,
+    title: "UPSC Aids",
+    description:
+      "Personalized Mentorship & UPSC Preparation Dashboard with structured learning programs",
+    link: "https://upscaids.com",
   },
 ];
 
-export const blockchainPortfolio = [
+// E-commerce Websites Portfolio
+export const ecommerceWebsitesPortfolio = [
   {
-    id: 1,
-    img: nanoflow,
-    title: "Nanoflow",
-    link: "https://play.google.com/store/apps/details?id=com.nanfolo.user.app",
+    id: 28,
+    image: AlfaChinaImg,
+    title: "Alfa China",
+    description:
+      "B2B import/export platform focused on Chinese products with real-time product listings and supplier directories",
+    link: "https://alfachina.com",
   },
   {
-    id: 2,
-    img: padipal,
-    title: "Padipal",
-    link: "https://padiepal.com",
+    id: 29,
+    image: BholaFactoryImg,
+    title: "Bhola Factory",
+    description:
+      "Premium Indian ethnic wear brand with full-scale WooCommerce backend and custom category pages",
+    link: "https://bholafactory.com",
   },
   {
-    id: 3,
-    img: cryptopadie,
-    title: "Cryptopadie",
-    link: "https://cryptopadie.com/",
+    id: 30,
+    image: DavisGrillImg,
+    title: "Davis Grill",
+    description:
+      "Restaurant e-commerce with online food ordering, menu exploration, and delivery integration",
+    link: "https://davisgrill.com",
   },
   {
-    id: 3,
-    img: ProjectButterfly,
-    title: "ProjectButterfly",
-    link: "https://projectbutterfly.io/",
+    id: 31,
+    image: MuconFactoryImg,
+    title: "Mucon Factory",
+    description:
+      "Industrial product catalog and inquiry platform for components and machinery with technical filtering",
+    link: "https://muconfactory.com",
   },
   {
-    id: 3,
-    img: Solalgo,
+    id: 32,
+    image: MyTeFashionImg,
+    title: "MyTe Fashion",
+    description:
+      "Youthful, vibrant shopping experience with product galleries and lookbook-style pages",
+    link: "https://mytefashion.com",
+  },
+  {
+    id: 33,
+    image: BanjaaranImg,
+    title: "Banjaaran",
+    description:
+      "High-end footwear label blending traditional Indian craftsmanship with modern e-commerce",
+    link: "https://banjaaran.com",
+  },
+  {
+    id: 34,
+    image: GullyLabsImg,
+    title: "GullyLabs",
+    description:
+      "Urban streetwear platform with bold designs, seasonal collections, and fast browsing",
+    link: "https://gullylabs.com",
+  },
+  {
+    id: 35,
+    image: NickronIndiaImg,
+    title: "Nickron India",
+    description:
+      "Sleek storefront for appliances and electrical products with product demos and warranty details",
+    link: "https://nickronindia.com",
+  },
+  {
+    id: 36,
+    image: OfficialDAPPImg,
+    title: "Official DAPP",
+    description:
+      "Edgy, design-forward e-commerce space for fashion-forward youth with limited edition releases",
+    link: "https://officialdapp.com",
+  },
+];
+
+// App Development Portfolio
+export const appDevelopmentPortfolio = [
+  {
+    id: 37,
+    image: AkashMegaMartApp,
+    title: "Akash Mega Mart",
+    description:
+      "User-friendly mobile shopping platform for groceries, fashion items, electronics, and household products with smooth UI and secure checkout",
+    link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
+    category: "E-commerce",
+  },
+  {
+    id: 38,
+    image: VetlabImg,
+    title: "Vetlab",
+    description:
+      "Diagnostic and health service app for veterinary clinics and pet owners with digital reports and sample pickup scheduling",
+    link: "https://vetlab.com",
+    category: "Health / Veterinary",
+  },
+  {
+    id: 39,
+    image: VetOnlineImg,
+    title: "VetOnline",
+    description:
+      "Telemedicine app allowing pet owners to consult licensed veterinarians through chat or video calls with medical history tracking",
+    link: "https://vetonline.com",
+    category: "Health / Veterinary / Telemedicine",
+  },
+  {
+    id: 40,
+    image: SampleCollectorImg,
+    title: "Sample Collector",
+    description:
+      "App for diagnostic labs and field agents to coordinate sample collections with route management and real-time notifications",
+    link: "https://samplecollector.com",
+    category: "Health / Diagnostics",
+  },
+  {
+    id: 41,
+    image: FeelItImg,
+    title: "Feelit",
+    description:
+      "Mood-based social media platform where users post thoughts, stories, and images based on emotions for mental wellness",
+    link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
+    category: "Social Networking",
+  },
+  {
+    id: 42,
+    image: EvaPeopleImg,
+    title: "Eva People App",
+    description:
+      "HR and wellness platform helping companies monitor employee satisfaction and performance with survey tools and analytics",
+    link: "https://evapeople.com",
+    category: "Corporate / HR",
+  },
+  {
+    id: 43,
+    image: EvaInternshipsImg,
+    title: "Eva Internships",
+    description:
+      "App helping students explore, apply, and manage internships worldwide with listings and mentorship tools",
+    link: "https://evainternships.com",
+    category: "Education / Career",
+  },
+  {
+    id: 44,
+    image: EvaTrainingImg,
+    title: "Eva Training Certificates",
+    description:
+      "Digital certificate management app for companies and learners to issue, store, and validate training credentials",
+    link: "https://evacertificates.com",
+    category: "Education / Certification",
+  },
+  {
+    id: 45,
+    image: HayatyImg,
+    title: "Hayaty (iOS & Android)",
+    description:
+      "Healthcare and lifestyle management app for patients and caregivers with medication reminders and health records",
+    link: "https://hayaty.com",
+    iosLink: "https://apps.apple.com/app/hayaty",
+    androidLink: "https://play.google.com/store/apps/details?id=com.hayaty.app",
+    category: "Health / Wellness",
+  },
+  {
+    id: 46,
+    image: NasehImg,
+    title: "Naseh (iOS & Android - ناصح)",
+    description:
+      "Islamic guidance and personal development app featuring daily motivational content and spiritual reminders",
+    link: "https://naseh.com",
+    iosLink: "https://apps.apple.com/app/naseh",
+    androidLink: "https://play.google.com/store/apps/details?id=com.naseh.app",
+    category: "Religion / Lifestyle",
+  },
+  {
+    id: 47,
+    image: LafiImg,
+    title: "Lafi (iOS - لافي)",
+    description:
+      "Premium Arabic-language shopping platform with hand-picked product categories and modern UI",
+    link: "https://lafi.com",
+    category: "E-commerce",
+  },
+  {
+    id: 48,
+    image: RentopImg,
+    title: "Rentop",
+    description:
+      "Marketplace app allowing users to rent out or lease items with product listings, booking calendar, and payment gateway",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
+    category: "Marketplace / Rentals",
+  },
+  {
+    id: 49,
+    image: ICCBrossardImg,
+    title: "ICCB Prayer Times",
+    description:
+      "App for Muslim community providing accurate prayer times, Qibla direction, and mosque announcements",
+    link: "https://iccbrossard.com",
+    category: "Religion / Utilities",
+  },
+  {
+    id: 50,
+    image: EvansFrancisImg,
+    title: "Evans Francis Christian App",
+    description:
+      "Christian app featuring sermon videos, devotional messages, and Bible resources for spiritual growth",
+    link: "https://evansfrancis.com",
+    category: "Religion / Education",
+  },
+  {
+    id: 51,
+    image: ZignaAutoSnapImg,
+    title: "Zigna AutoSnap",
+    description:
+      "Real estate photography app helping agents capture professional property photos with guided photography and editing",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
+    category: "Real Estate / Photography",
+  },
+  {
+    id: 52,
+    image: KlikomicsImg,
+    title: "Klikomics",
+    description:
+      "Digital comic reading app with animated panels, original content, and smooth navigation for graphic novel enthusiasts",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
+    category: "Entertainment / Comics",
+  },
+  {
+    id: 53,
+    image: DubaiTravelImg,
+    title: "Dubai Travel Guide by eTips",
+    description:
+      "Digital travel companion for Dubai tourists with offline maps, sightseeing highlights, and audio guides",
+    link: "https://etips.com/dubai",
+    category: "Travel / Tourism",
+  },
+  {
+    id: 54,
+    image: PlantaImg,
+    title: "Planta",
+    description:
+      "Wellness-focused app helping users cultivate healthy lifestyle habits with reminders and progress tracking",
+    link: "https://planta.com",
+    category: "Health / Wellness",
+  },
+  {
+    id: 55,
+    image: ServizImg,
+    title: "Serviz",
+    description:
+      "Service aggregator platform connecting users with skilled professionals for home services with transparent pricing",
+    link: "https://serviz.com",
+    category: "On-Demand Services / Home Services",
+  },
+  {
+    id: 56,
+    image: KaamwaliBaisImg,
+    title: "Kaamwali Bais",
+    description:
+      "App enabling households to find and hire reliable domestic helpers with detailed profiles and background checks",
+    link: "https://kaamwalibais.com",
+    category: "On-Demand Services / Domestic Help",
+  },
+  {
+    id: 57,
+    image: SatisfactionFarmImg,
+    title: "Satisfaction Farm",
+    description:
+      "Farm-to-home e-commerce platform offering fresh produce directly from farmers with real-time order placement",
+    link: "https://satisfactionfarm.com",
+    category: "E-commerce / Agriculture",
+  },
+  {
+    id: 58,
+    image: FreshAndFreshImg,
+    title: "Fresh and Fresh",
+    description:
+      "Grocery delivery app connecting users to local stores for daily essentials with flexible delivery slots",
+    link: "https://freshandfresh.com",
+    category: "E-commerce / Grocery",
+  },
+  {
+    id: 59,
+    image: BharatMedsImg,
+    title: "Bharat Meds",
+    description:
+      "TrackNow Medicine Delivery & Tracking App for pharmaceutical services",
+    link: "https://bharatmeds.com",
+    category: "Health / Pharmacy",
+  },
+  {
+    id: 60,
+    image: CrimsonClassifiedImg,
+    title: "Crimson Classified Hub",
+    description:
+      "Community-Driven Classifieds Platform for local listings and community engagement",
+    link: "https://crimsonclassifieds.com",
+    category: "Classifieds / Community",
+  },
+  {
+    id: 61,
+    image: DubaiClassifiedsImg,
+    title: "Dubai Classifieds Pulse",
+    description: "Hyperlocal Classified Listings Platform for Dubai community",
+    link: "https://dubaipulse.ae",
+    category: "Classifieds / Local",
+  },
+  {
+    id: 62,
+    image: EmberImg,
+    title: "Ember",
+    description:
+      "AI-Powered Soulmate Matching & Conversation Platform for relationship building",
+    link: "https://emberapp.com",
+    category: "Dating / AI",
+  },
+  {
+    id: 63,
+    image: UrjaOneImg,
+    title: "UrjaOne Nexus",
+    description:
+      "Mobile Energy Services Marketplace connecting users with energy solutions",
+    link: "https://urjaone.com",
+    category: "Energy / Marketplace",
+  },
+];
+
+// AI Projects Portfolio
+export const aiProjectsPortfolio = [
+  {
+    id: 64,
+    image: FindMyAIToolImg,
+    title: "Find My AI Tool",
+    description:
+      "Discovery platform offering curated listings, reviews, and rankings of AI tools across categories like design, automation, and productivity",
+    link: "https://findmyaitool.com",
+    category: "AI Directory / SaaS Review",
+  },
+  {
+    id: 65,
+    image: VyroAIImg,
+    title: "AI Art Generator – Vyro AI",
+    description:
+      "App using machine learning and neural style transfer to convert photos into stunning AI-generated artwork with multiple artistic styles",
+    link: "https://vyro.ai",
+    category: "Art / Photo Editing",
+  },
+  {
+    id: 66,
+    image: MusiclyImg,
+    title: "Musicly – AI Music Generator",
+    description:
+      "App transforming text prompts and moods into original AI-generated music with background tracks and theme-based soundscapes",
+    link: "https://musicly.ai",
+    category: "AI Music / Audio Creation",
+  },
+];
+
+// Blockchain Projects Portfolio
+export const blockchainProjectsPortfolio = [
+  {
+    id: 67,
+    image: ProjectButterflyImg,
+    title: "Project Butterfly",
+    description:
+      "Eco-conscious blockchain initiative supporting carbon offsetting via NFT-backed environmental assets with real-world impact",
+    link: "https://projectbutterfly.com",
+    category: "Sustainability / NFT Utility",
+  },
+  {
+    id: 68,
+    image: EarlynctrImg,
+    title: "Earlynctr",
+    description:
+      "Curated investment platform for early-stage crypto projects and blockchain startups with vetted listings and community voting",
+    link: "https://earlynctr.com",
+    category: "Crypto Investment / Startup Incubation",
+  },
+  {
+    id: 69,
+    image: SolalgoImg,
     title: "Solalgo",
-    link: "https://solalgo.com/",
-  },
-  {
-    id: 3,
-    img: Taikonz,
-    title: "Taikonz",
-    link: "https://taikonz.io/",
+    description:
+      "Analytics engine built for the Solana ecosystem providing DApp performance metrics, smart contract tracking, and real-time data visualization",
+    link: "https://solalgo.com",
+    category: "Blockchain Analytics / Developer Tools",
   },
 ];
 
-export const ecommercePortfolio = [
-  { id: 1, img: Banjaaran, title: "Banjaaran", link: "https://banjaaran.in/" },
-  { id: 2, img: GullyLabs, title: "GullyLabs", link: "https://gullylabs.com/" },
+// Chatbot Projects Portfolio
+export const chatbotProjectsPortfolio = [
   {
-    id: 3,
-    img: NickronIndia,
-    title: "NickronIndia",
-    link: "https://nickronindia.com/",
+    id: 70,
+    image: ChatlyImg,
+    title: "Chatly – AI Chatbot",
+    description:
+      "Highly engaging AI chatbot that mimics human-like conversations using advanced natural language processing for productivity and companionship",
+    link: "https://chatly.ai",
+    category: "Productivity / Companionship",
   },
   {
-    id: 3,
-    img: OfficialDAPP,
-    title: "OfficialDAPP",
-    link: "https://www.officialdapp.com/",
+    id: 71,
+    image: DawnAIImg,
+    title: "Dawn AI Chatbot",
+    description:
+      "Intelligent virtual assistant integrating text-based conversation with art generation, creative ideation, and inspirational prompts",
+    link: "https://dawnai.com",
+    category: "AI Art & Creative Assistant",
+  },
+  {
+    id: 72,
+    image: GENZArtImg,
+    title: "GENZ Art Chatbot",
+    description:
+      "Vibrant chatbot platform for Gen Z users to create and share AI-generated artworks through interactive chat-based prompts",
+    link: "https://genzart.com",
+    category: "Gen Z / Art & Expression",
   },
 ];
 
-export const aiPortfolio = [
+// Game Development Portfolio
+export const gameDevelopmentPortfolio = [
   {
-    id: 1,
-    img: FindMyAITool,
-    title: "FindMyAITool",
-    link: "https://findmyaitool.com/",
+    id: 73,
+    image: ActionPlayerGamesImg,
+    title: "Action Player Games",
+    description:
+      "Diverse collection of fast-paced arcade-style mini-games designed to keep users engaged with adrenaline-packed gameplay",
+    link: "https://actionplayergames.com",
+    category: "Action / Arcade Bundle",
+  },
+  {
+    id: 74,
+    image: WormsZoneImg,
+    title: "Worms Zone.io",
+    description:
+      "Addictive .io-style snake game where players control colorful worms competing to grow the biggest with real-time multiplayer",
+    link: "https://wormszone.io",
+    category: "Multiplayer / Casual Arcade",
+  },
+  {
+    id: 75,
+    image: SahiImg,
+    title: "Sahi - Group Voice Room",
+    description:
+      "Interactive game world combining chatting with mini-games and metaverse-style social experience",
+    link: "https://sahi.com",
+    category: "Social / Simulation",
   },
 ];
-export const shopifyPortfolio = [
+
+// Recent Projects Portfolio
+// AI Calling Agency Portfolio
+export const aiCallingPortfolio = [
   {
-    id: 1,
-    img: BBBShop,
-    title: "BBBShop",
-    link: "https://bbbshop.in/",
-  },
-  {
-    id: 2,
-    img: NaseemPerfume,
-    title: "NaseemPerfume",
-    link: "https://www.naseemperfume.in/?srsltid=AfmBOorIvRMnc7wcdjWvHxfpimuWs5ydG5EEQhiauY7tudZmmdcva4cR",
-  },
-  {
-    id: 3,
-    img: TheEthnicCloset,
-    title: "TheEthnicCloset",
-    link: "https://theethniccloset.com/?srsltid=AfmBOoo0WbBJZTElLP4NpwdFGmYIf6jnO3uV3LWD6Fb1q-ceZVpWzihm",
+    id: 76,
+    image: SpeaksifyImg,
+    title: "Speaksify",
+    description: "AI-Powered Public Speaking Coach",
+    link: "https://speaksify.com",
+    category: "ai",
+    type: "AI Calling Agency",
   },
 ];
+
+// SaaS Portfolio
+export const saasPortfolio = [
+  {
+    id: 77,
+    image: ProjectsyImg,
+    title: "Projectsy.ai",
+    description: "AI-Powered Project & Task Management Platform",
+    link: "https://projectsy.ai",
+    category: "saas",
+    type: "SaaS Project",
+  },
+  {
+    id: 78,
+    image: VirtuTeamsImg,
+    title: "VirtuTeams",
+    description: "Team Management & Remote Operations Platform",
+    link: "https://virtuteams.com",
+    category: "saas",
+    type: "SaaS Project",
+  },
+];
+
+// Recent Projects Portfolio (Deprecated/Empty)
+export const recentProjects = [];
+

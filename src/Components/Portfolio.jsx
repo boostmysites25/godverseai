@@ -1,6 +1,6 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
-import { appPortfolio, webPortfolio } from "../util/constant";
+import { appDevelopmentPortfolio, webDevelopmentPortfolio } from "../util/constant";
 import RoundedHeader from "./RoundedHeader";
 import { Link } from "react-router-dom";
 const animation = { duration: 60000, easing: (t) => t };
@@ -9,8 +9,8 @@ const Portfolio = ({ page }) => {
   const isWeb = page === "web-development";
   //   const isApp = page === "app-development";
 
-  const displayedWebPortfolio = isWeb || !page ? webPortfolio : [];
-  const displayedAppPortfolio = !isWeb || !page ? appPortfolio : [];
+  const displayedWebPortfolio = isWeb || !page ? webDevelopmentPortfolio : [];
+  const displayedAppPortfolio = !isWeb || !page ? appDevelopmentPortfolio : [];
 
   const [sliderRef] = useKeenSlider({
     loop: true,
@@ -99,7 +99,7 @@ const Portfolio = ({ page }) => {
                     className="keen-slider__slide border-4 dark:bg-darkblack border-primary/40 rounded-xl bg-custom-gradient object-cover"
                   >
                     <img
-                      src={obj.img}
+                      src={obj.image}
                       alt={obj.title}
                       className="rounded-t-xl hover:scale-105 transition-all duration-300 lg:max-h-[316px] w-full 2xl:max-h-[350px] aspect-square object-cover"
                     />
@@ -130,7 +130,7 @@ const Portfolio = ({ page }) => {
                     className="keen-slider__slide border-4 dark:bg-darkblack border-primary/40 rounded-xl bg-custom-gradient"
                   >
                     <img
-                      src={obj.img}
+                      src={obj.image}
                       alt={obj.title}
                       className="rounded-t-xl hover:scale-105 transition-all duration-300 lg:max-h-[316px] w-full 2xl:max-h-[350px] aspect-square object-cover"
                     />
